@@ -16,7 +16,7 @@ const modulesOptions = {
 };
 
 const moduleData = {
-  shortName: 'dav',
+  shortName: 'graceperiod',
   fullName: 'linagora.esn.graceperiod',
   lessFiles: [],
   angularModules: []
