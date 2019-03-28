@@ -43,6 +43,7 @@ stages:
       TZ: "America/New_York"
   before_script:
     - npm install -g grunt-cli
+    - npm install
     - 'echo "INFO: NB node packages : $(ls node_modules | wc -l)"'
     - 'echo "INFO: NB bower packages : $(ls frontend/components | wc -l)"'
   except:
